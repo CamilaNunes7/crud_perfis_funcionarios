@@ -1,10 +1,12 @@
 # CRUD Perfis de Funcionários
 
-Um projeto desenvolvido em Python para realizar operações de **CRUD (Create, Read, Update, Delete)** com um banco de dados PostgreSQL utilizando SQLAlchemy como ORM.
+Um projeto desenvolvido por Camila Nunes em Python para realizar operações de **CRUD (Create, Read, Update, Delete)** com um banco de dados PostgreSQL utilizando SQLAlchemy como ORM.
 
 Este projeto tem como objetivo gerenciar informações de funcionários, incluindo nome, idade, cargo e outras informações pertinentes.
 
+
 ---
+
 
 ## 🛠 Tecnologias Utilizadas
 
@@ -15,7 +17,9 @@ Este projeto tem como objetivo gerenciar informações de funcionários, incluin
 - **bcrypt**: Para criptografar senhas dos usuários.
 - **SQLite**: Banco de dados utilizado durante o desenvolvimento.
 
+
 ---
+
 
 ## ⚙️ Funcionalidades
 
@@ -27,7 +31,9 @@ Este projeto tem como objetivo gerenciar informações de funcionários, incluin
 - **Atualização de Usuário**: O usuário pode ser atualizado, mas um **gestor** só pode atualizar os usuários do seu próprio departamento.
 - **Exclusão de Usuário**: O **gestor** só pode excluir usuários do seu próprio departamento.
 
+
 ---
+
 ## Endpoints da API
 
 ### Autenticação
@@ -116,6 +122,10 @@ Este projeto tem como objetivo gerenciar informações de funcionários, incluin
       "message": "User deleted successfully"
     }
     ```
+
+---
+
+
 ## 🚀 Como Executar o Projeto
 
 ### 1. **Clone o Repositório**
@@ -147,6 +157,7 @@ uvicorn main:app --reload
 ```
 
 O servidor estará disponível em: http://127.0.0.1:8000
+
 
 ---
 
