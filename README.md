@@ -153,7 +153,7 @@ pip install -r requirements.txt
 
 ### 4. **Execute o Projeto**
 ```bash
-uvicorn main:app --reload
+uvicorn app.main:app --reload
 ```
 
 O servidor estará disponível em: http://127.0.0.1:8000
